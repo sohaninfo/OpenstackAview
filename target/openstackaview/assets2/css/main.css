@@ -1,0 +1,332 @@
+body {
+    background-color: #ffffff;
+    margin-top: 45px;
+}
+.navbar-inverse {
+    /*background: #4393B9;*/
+    background: #00628B;
+}
+
+.side-nav{
+   /* color: #EDEAEA;*/
+    background: #E6E6DC;
+}
+
+#wrapper {
+    padding-left: 250px;
+}
+
+.nav {
+    min-height: 25px;
+}
+.side-nav {
+    left: 250px;
+    width: 250px;
+    margin-left: -250px;
+    top: 27px;
+}
+
+#sidebar-main-icon {
+    float: right;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
+.top-nav>.open>a:focus {
+    color: #fff;
+    background-color: #033F58;
+}
+
+.side-nav li a:hover,
+.side-nav li a:focus {
+    outline: none;
+    background-color: #CCCCA5 !important;
+}
+
+/*.panel-heading {
+    padding: 2px 5px;
+}*/
+.alert {
+    padding: 2px;
+}
+
+.top-nav {
+    padding: 5px 15px;
+}
+
+.top-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 2px;
+    line-height: 10px;
+    color: #999;
+}
+
+.table {
+    margin-bottom: 4px;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    padding: 1px;
+}
+/*-------------------------------------------*/
+
+
+
+.thing-form {
+    margin: 10px 0;
+}
+
+#banner {
+    border-bottom: none;
+    margin-top: -10px;
+}
+
+#banner h1 {
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.hero-unit {
+    position: relative;
+    padding: 30px 15px;
+    color: #F5F5F5;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    background: #4393B9;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 70px;
+    border-top: 1px solid #E5E5E5;
+}
+
+.bell {
+    color: #FE9A2E
+}
+
+.calderon_header {
+    position: relative;
+    padding: 10px 15px;
+    color: #F5F5F5;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    background: #4393B9;
+}
+
+#page-wrapper {
+    padding: 5px;
+}
+/*
+.sidebar {
+    width: 250px;
+}*/
+
+.borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th {
+    border: none;
+}
+
+.selected {
+    background-color: #D0F5A9;
+    color: #211E1E;
+}
+
+.dialog-box {
+    position: relative;
+    width: 750px;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #d9edf7;
+}
+
+.prodrow {
+    background-color: #F8E0E0;
+}
+
+.has-success {
+    color: black;
+    background-color: #E5F2E0;
+}
+
+.has-error {
+    color: red;
+    background-color: #FCF4D9;
+}
+
+.has-info {
+    color: black;
+    background-color: #DEF9FC;
+}
+
+.mainHead {
+    /*background-color:#fa902b;*/
+    background-color: #003399;
+    color:#fff;
+}
+
+.subHead {
+    /*background-color:#fa902b;*/
+    background-color: #66CCFF;
+    color:#000000;
+}
+
+.responsive-table {
+    color: #000;
+    overflow: hidden;
+    width:100%;
+    border-radius: 2px;
+    background-color:#eaebee;
+}
+
+.ui-dialog { z-index: 5001 !important ;}
+
+
+
+.openOrderHead {
+    background-color: #B0C4DE;
+}
+
+
+.openOrder {
+    background-color: #E8D0A9;
+}
+
+.orderPart {
+    background-color: #C1DAD6;
+}
+
+.productPart {
+    background-color: #B7AFA3;
+}
+
+.marketPart {
+    background-color: #ACD1E9;
+}
+
+.columnPortfolio {
+    background-color: #E0F8F1;
+}
+
+.successMsg {
+    background-color: #D0F5A9;
+}
+
+.open-limit-positive {
+    color: black;
+}
+
+.open-limit-negative {
+    color: #DF0101;
+}
+
+.productRow {
+    background-color: #F8DEBD;
+}
+
+
+.even{ background-color:#E0F8F7; }
+.odd{ background-color:#F6E3CE; }
+
+.accordionHeading {
+    background-color: #D0F5A9;
+}
+
+.pagination {
+    display: inline;
+    padding-left: 0;
+    margin: 5px 0;
+    border-radius: 2px;
+}
+
+.css-form input.ng-invalid.ng-touched {
+    background-color: #F5A9A9;
+}
+
+.css-form input.ng-valid.ng-touched {
+    background-color: #E0F8E0;
+}
+
+
+.todayTime {
+  color : #63AE12;
+  font-weight: bold;
+}
+
+.yesterdayTime {
+     color: #F24A4A;
+ }
+
+.holdingNormal {
+  color: #080808;
+  font-weight: bold;
+}
+
+.holdingHighlight {
+     color: #F24A4A;
+ }
+
+.combinedPrice {
+    background-color: #CEF6EC;
+}
+.form-control-inline {
+    min-width: 0;
+    width: 60px;
+    display: inline;
+}
+
+.even2 {
+    background-color: #FFFFFF;
+}
+
+.odd2 {
+    background-color:  #EDF4F5;
+}
+.fixed-nav-bar {
+    position: fixed;
+    top: 25px;
+    /*left: 250px;*/
+    z-index: 700;
+    width: 100%;
+    height: 20px;
+    background-color: #DFDFDF;
+}
+.statusCircle {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #40FF00;
+    /* width and height can be anything, as long as they're equal */
+}
+.statusok {
+    color: #40FF00;
+}
+.statusnotok {
+    color: #F50109;
+}
+
+.quotetime {
+    padding-left: 150px;
+}
+
+.limitChange {
+    background-color: #3CBC9C;
+    color : #FFFFFF;
+    font-weight: bold;
+}
+
+.italic {
+    color: black;
+}
+
