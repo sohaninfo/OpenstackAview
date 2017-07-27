@@ -1,8 +1,16 @@
-<h3>This is main view </h3>
-<h3>This is main view </h3>
-<h3>This is main view </h3>
-<h3>This is main view </h3>
-<h3>This is main view </h3>
-<h3>This is main view </h3>
-<h3>This is main view </h3>
-<h3>This is main view </h3>
+<h3>Encrypt</h3>
+
+
+<form class="form-inline">
+            <div class="form-group">
+                <label class="sr-only" for="SearchTransId">Text</label>
+
+                <div class="input-group">
+                    <div class="input-group-addon">Data</div>
+                    <input type="textarea" ng-model="data" class="form-control" id="SearchTransId"
+                           placeholder="transId">
+                </div>
+			</div>
+</form>
+
+<button ng-click="encrypt()" class="btn btn-primary">Encrypt</button>

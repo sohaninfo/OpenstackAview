@@ -19,6 +19,11 @@ angular.module('OpenstackAview', [
           templateUrl: 'client/components/main/main.html',
           controller: 'MainCtrl'
      })
+         .state('token', {
+          url: '/main',
+          templateUrl: 'client/components/main/token.html',
+          controller: 'MainCtrl'
+     })
       
 
 })
